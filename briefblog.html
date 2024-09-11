@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog sur la nutrition et la supplémentation, mettant en avant les produits d'une entreprise de compléments alimentaires.">
+    <title>Blog Nutrition et Supplémentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        #blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#blog article {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.333% - 20px);
+    text-align: center;
+}
+
+#blog article h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+#blog article p {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+#blog article a.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+#blog article a.btn:hover {
+    background-color: #45a049;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        #produits {
+            background-color: #fff;
+        }
+
+        .produit {
+            display: inline-block;
+            width: 30%;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .produit img {
+            width: 100%;
+            height: 400px; /* Hauteur uniforme pour toutes les images */
+            
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .supplémentation img {
+    width: 100%; /* L'image prendra toute la largeur de son conteneur */
+    height: auto; /* La hauteur sera automatiquement ajustée en fonction de la largeur */
+    max-height: 400px; /* Optionnel : limite la hauteur maximale de l'image */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* Optionnel : cela garantit que l'image s'ajuste bien, même si les dimensions sont disproportionnées */
+}
+
+
+        #nutrition {
+            background-color: #ffeb3b;
+            color: #000;
+        }
+
+        #supplementation {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        #blog {
+            background-color: #9C27B0;
+            color: white;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+
+        .social-icons a:hover {
+            color: #4CAF50;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nutrition et Supplémentation</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Alimentation Équilibrée</a></li>
+                <li><a href="#">Supplémentation</a></li>
+                <li><a href="#">Conseil</a></li>
+                <li><a href="#">Ressources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="produits">
+        <h2>Nos Produits</h2>
+        <p>Découvrez nos compléments alimentaires pour une meilleure santé.</p>
+        <div class="produit">
+            <img src="therapy-relaxing-spa-sand-close-up.jpg" alt="Produit 1">
+            <h3>GreenFuel Protein</h3>
+            <p>GreenFuel Protein est une protéine en poudre à base de plantes, spécialement formulée pour les végétariens, végétaliens, ou toute personne cherchant à augmenter leur apport en protéines sans recourir aux produits d'origine animale. Chaque portion de GreenFuel Protein fournit 20g de protéines dérivées de pois, de chanvre et de riz brun, offrant un profil d'acides aminés complet. Enrichi en fibres, ce produit contribue également à la santé digestive tout en favorisant la satiété. Parfait pour les sportifs, les amateurs de fitness, ou ceux qui veulent simplement soutenir leur nutrition quotidienne.</p>
+        </div>
+        <div class="produit">
+            <img src="vitamine.jpg" alt="Produit 2">
+            <h3>Vitamix Essentials</h3>
+            <p>Vitamix Essentials est un complément multivitaminé complet conçu pour combler les carences nutritionnelles courantes dans l'alimentation moderne. Formulé avec un équilibre parfait de vitamines et minéraux essentiels, ce produit soutient votre système immunitaire, améliore la santé de la peau et des cheveux, et booste votre énergie quotidienne. Les vitamines B, C, D et E, combinées à des minéraux comme le zinc et le magnésium, font de Vitamix Essentials un allié indispensable pour maintenir une santé optimale.</p>
+        </div>
+        <div class="produit">
+            <img src="oméga.jpg" alt="Produit 3">
+            <h3>OmegaPure 1000</h3>
+            <p>OmegaPure 1000 est un supplément d'huile de poisson riche en acides gras oméga-3, essentiels pour la santé cardiaque, cérébrale et articulaire. Chaque capsule contient 1000 mg d'huile de poisson de haute qualité, purifiée pour éliminer les toxines et garantir une pureté optimale. Les oméga-3 EPA et DHA présents dans OmegaPure 1000 sont essentiels pour réduire l'inflammation, améliorer la fonction cognitive et soutenir un système cardiovasculaire sain.</p>
+        </div>
+    </section>
+
+    <section id="nutrition">
+            <h2>L'importance de la Nutrition</h2>
+            <p>La nutrition joue un rôle fondamental dans le maintien de la santé, la prévention des maladies, et l'amélioration du bien-être général. Voici quelques exemples illustrant son importance :</p>
+            
+            <h3>Énergie et Performance</h3>
+            <p>Les glucides sont la principale source d'énergie pour le corps, en particulier pour le cerveau et les muscles. Une alimentation équilibrée en glucides permet de maintenir un niveau d'énergie stable tout au long de la journée, améliorant ainsi les performances physiques et mentales.</p>
+            
+            <h3>Renforcement du Système Immunitaire</h3>
+            <p>Les vitamines, comme la vitamine C, et les minéraux, comme le zinc, jouent un rôle clé dans le renforcement du système immunitaire. Une alimentation riche en fruits, légumes et sources de protéines contribue à prévenir les infections et à renforcer les défenses naturelles du corps.</p>
+            
+            <h3>Santé Cardiaque</h3>
+            <p>Une alimentation riche en fibres (provenant des céréales complètes, légumes et fruits) et en acides gras oméga-3 (provenant du poisson et des noix) aide à réduire le cholestérol, abaisser la pression artérielle, et diminuer le risque de maladies cardiaques.</p>
+            
+            <h3>Santé Digestive</h3>
+            <p>Les fibres alimentaires, présentes dans les légumes, fruits, légumineuses et céréales complètes, sont essentielles pour une bonne digestion. Elles aident à prévenir la constipation, favorisent la santé intestinale, et réduisent le risque de développer des troubles digestifs comme les diverticuloses.</p>
+            
+            <h3>Contrôle du Poids</h3>
+            <p>Consommer une alimentation équilibrée, riche en nutriments mais modérée en calories, est essentiel pour le maintien d'un poids sain. Les protéines et les fibres, en particulier, augmentent la satiété, aidant ainsi à prévenir la suralimentation et le gain de poids.</p>
+            
+            <h3>Santé Osseuse</h3>
+            <p>Le calcium et la vitamine D, présents dans les produits laitiers, les poissons gras et certains légumes verts, sont cruciaux pour la santé des os. Ils préviennent l'ostéoporose et renforcent la densité osseuse, particulièrement chez les enfants, les adolescents, et les personnes âgées.</p>
+            
+            <h3>Santé Mentale</h3>
+            <p>Les oméga-3, présents dans le poisson gras, les noix et les graines de lin, sont liés à une meilleure santé mentale. Ils peuvent aider à réduire les symptômes de la dépression, améliorer l'humeur et soutenir les fonctions cognitives.</p>
+        
+        
+    </section>
+
+    <section id="supplementation">
+        <h2>Supplémentation</h2>
+        <p>Comprenez comment les suppléments peuvent compléter votre alimentation quotidienne.</p>
+        
+            <h3>Supplémentation pour Compléter Votre Alimentation</h3>
+            <p>Les suppléments alimentaires sont conçus pour compléter l'alimentation quotidienne en fournissant des nutriments spécifiques qui peuvent être insuffisants dans le régime alimentaire habituel. Voici comment ils peuvent remplir ce rôle :</p>
+            <h3>1. Correction des Carences</h3>
+            <p>Les suppléments peuvent aider à combler les lacunes nutritionnelles lorsque l'alimentation ne fournit pas suffisamment de certains nutriments. Par exemple, une personne qui ne consomme pas assez de produits laitiers peut prendre un supplément de calcium pour soutenir la santé des os.</p>
+            <h3>2. Réponse à des Besoins Accrus</h3>
+            <p>Dans des situations où les besoins en certains nutriments sont augmentés, comme pendant la grossesse, l'allaitement, ou en cas de stress intense, les suppléments peuvent aider à satisfaire ces besoins accrus. Les femmes enceintes, par exemple, peuvent avoir besoin de suppléments de folate pour prévenir les anomalies du tube neural chez le bébé.</p>
+            <h3>3. Amélioration des Performances</h3>
+            <div class="supplémentation">
+                <img src="bottle-measuring-tape-citrus-fruits-plate.jpg" alt="supplémentation">
+
+    </section>
+   
+    <section id="blog">
+        <h2>Articles Récents</h2>
+    
+        <article>
+            <img src="image-alimentation.jpg" alt="Améliorer votre alimentation" style="width:100%; height:auto;">
+            <h3>Comment améliorer votre alimentation</h3>
+            <p>Découvrez des conseils pratiques pour améliorer votre régime alimentaire, en intégrant plus de fruits et légumes, en réduisant le sucre et en choisissant des sources de protéines de qualité.</p>
+            <a href="#" class="btn">Lire la suite</a>
+        </article>
+    
+        <article>
+            <img src="image complément (1).jpg" alt="Bienfaits des compléments alimentaires" style="width:100%; height:auto;">
+            <h3>Les bienfaits des compléments alimentaires</h3>
+            <p>Explorez les avantages de la prise de compléments alimentaires pour combler les carences nutritionnelles, soutenir le système immunitaire, et améliorer la performance physique.</p>
+            <a href="#" class="btn">Lire la suite</a>
+        </article>
+    
+     
+    </section>
+    
+    <footer>
+        <div class="footer-section">
+            <h4>Bien-être</h4>
+            <p>
+              Le bien-être est une harmonie entre le corps, l'esprit et l'environnement. Sur notre blog, nous explorons des méthodes naturelles pour améliorer votre bien-être quotidien, en abordant des sujets tels que la relaxation, l'équilibre mental, et les habitudes alimentaires saines. Découvrez comment de petites actions peuvent transformer votre vie en profondeur.
+            </p>
+          </div>
+          
+          <div class="footer-section">
+            <h4>Se soigner</h4>
+            <p>
+              Prendre soin de soi passe par une compréhension des besoins spécifiques de son corps. Nous partageons ici des conseils pour adopter une approche préventive de la santé, en utilisant des suppléments naturels et une alimentation équilibrée pour renforcer votre système immunitaire et soutenir votre vitalité. Se soigner, c'est avant tout écouter son corps et lui apporter ce dont il a besoin pour fonctionner de manière optimale.
+            </p>
+          </div>
+        <p>&copy; 2024 Blog Nutrition et Supplémentation. Tous droits réservés.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
